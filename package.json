@@ -1,0 +1,42 @@
+{
+    "name": "dt-claat-vscode",
+    "displayName": "Claat for Dynatrace Learning Labs",
+    "description": "Making CLAAT (Google's CodeLab As A Thing) easy in VS Code for Dynatrace Learning Labs",
+    "version": "1.0.0",
+    "publisher": "dynatrace-apac",
+    "license": "SEE LICENSE IN LICENSE",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Dynatrace-APAC/dt-claat-vscode"
+    },
+    "categories": [
+        "Snippets",
+        "Formatters",
+        "Other"
+    ],
+    "keywords": [
+        "codelab as a thing",
+        "claat",
+        "codelab",
+        "code",
+        "lab",
+        "dynatrace"
+    ],
+    "bugs": {
+        "url": "https://github.com/Dynatrace-APAC/dt-claat-vscode/issues"
+    },
+    "homepage": "http://dynatrace-apac.github.io",
+    "icon": "img/dynatrace-notebook.png",
+    "engines": {
+        "vscode": "^1.43.0"
+    },
+    "contributes": {
+        "snippets": [
+            {
+                "language": "markdown",
+                "path": "./snippets/snippets.json"
+            }
+
+        ]
+    }
+}

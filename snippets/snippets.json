@@ -1,0 +1,155 @@
+{
+    "Codelab Header": {
+        "prefix": "!claat-header",
+        "body": [
+          "id: ${1:Unique ID of lab}",
+          "summary: ${2:Summary of lab}",
+          "categories: ${3:Icon (Up to 3 - comma seperated)},${4|infrastructure-monitoring,application-microservices-monitoring,cloud-automation,digital-experience,business-analytics|}",
+          "tags: ${5:Tag 1},${6|Beginner,Intermediate,Advanced|}",
+          "status: Published",
+          "authors: ${7:author}",
+          "Feedback Link: mailto:APAC-SE-Central@dynatrace.com",
+          "",
+          "# ${8:Codelab Title}",
+          ""
+        ],
+        "description": "Creates a Codelab Header"
+      },
+      "Introduction Codelab Step": {
+        "prefix": "!claat-intro-step",
+        "body": [
+          "<!-- ------------------------ -->",
+          "## ${9:Introduction} ",
+          "Duration: ${10:hh}:${11:mm}:${12:ss}",
+          "",
+          "Background / Summary of the Labs.",
+          "",
+          "### Prerequisites",
+          "- Dynatrace SaaS/Managed Account. Get your free SaaS trial [here](https://www.dynatrace.com/trial/).",
+          "- Chrome Browser",
+          "- SSH client such as mobaxterm.",
+          "",
+          "### Lab Setup",
+          "- The following apps are used for this lab:",
+          "- Sample App is based on [easyTravel](https://community.dynatrace.com/community/display/DL/easyTravel)",
+          "",
+          "### What You'll Learn",
+          "- Install Dynatrace OneAgent",
+          "- Learn Request Attributes for deep code level capture",
+          "- Learn Session Properties for advanced dashboarding",
+          ""
+        ],
+        "description": "Create an Introduction Codelab Step"
+      },
+      "Codelab Step": {
+        "prefix": "!claat-example-step",
+        "body": [
+          "<!-- ------------------------ -->",
+          "## ${9:Heading} ",
+          "Duration: ${10:hh}:${11:mm}:${12:ss}",
+          "",
+          "### Subheader",
+          "- how to set the amount of time each slide will take to finish ",
+          "- how to include code snippets ",
+          "- how to hyperlink items ",
+          "- how to include images ",
+          "- other stuff",
+          "",
+          "### Subheading 2",
+          "",
+          "```bash",
+          "{ ",
+          "  key1: \"string\", ",
+          "  key2: integer,",
+          "  key3: \"string\"",
+          "}",
+          "```",
+          "### Hyperlinking",
+          "[Youtube - Dynatrace Channel](https://www.youtube.com/channel/UCcYJ-5q_AfmjQ4XTjTS0o3g)",
+          "",
+          "### Images",
+          "![alt-text-here](assets/logo.jpg)"
+        ],
+        "description": "Create an Example Codelab Step"
+      },
+      "Empty Codelab Step ": {
+        "prefix": "!claat-empty-step",
+        "body": [
+          "<!-- ------------------------ -->",
+          "## ${9:Step 1} ",
+          "Duration: ${10:hh}:${11:mm}:${12:ss}",
+          "",
+          "### ${13:Subheading} "
+        ],
+        "description": "Create an Empty Codelab Step"
+      },
+      "InfoBox": {
+        "prefix": "!claat-positive",
+        "body": [
+            "Positive",
+            ": ${14:This will appear in a positive info box.}",
+            "",
+            ""
+        ],
+        "description": "Add a positive style info box"
+      },
+      "InfoBox-Negative": {
+        "prefix": "!claat-negative",
+        "body": [
+            "Negative",
+            ": ${15:This will appear in a negative info box.}",
+            "",
+            ""
+        ],
+        "description": "Add a negative style info box"
+      },
+      "Download Button": {
+        "prefix": "!claat-download-button",
+        "body": [
+            "[Download ${16:Button Item}](${17: https://dynatrace-apac.github.io})",
+            "",
+            ""
+        ],
+        "description": "Add a download link"
+      },
+      "Feedback": {
+        "prefix": "!claat-feedback-step",
+        "body": [
+          "<!-- ------------------------ -->",
+          "## ${18:Feedback} ",
+          "",
+          "We hope you enjoyed this lab and found it useful. We would love your feedback!",
+          "<form>",
+          "<name>How was your overall experience with this lab?</name>",
+          "<input value='Excellent' />",
+          "<input value='Good' />",
+          "<input value='Average' />",
+          "<input value='Fair' />",
+          "<input value='Poor' />",
+          "</form>",
+          "",
+          "<form>",
+          "<name>What did you benefit most from this lab?</name>",
+          "<input value='${Heading:default}' />",
+          "<input value='${Heading1:default}' />",
+          "<input value='${Heading2:default}' />",
+          "<input value='${Heading3:default}' />",
+          "</form>",
+          "",
+          "<form>",
+          "<name>What did you benefit most from this lab?</name>",
+          "<input value='Very Likely' />",
+          "<input value='Moderately Likely' />",
+          "<input value='Neither Likely nor unlikely' />",
+          "<input value='Moderately Unlikely' />",
+          "<input value='Very Unlikely' />",
+          "</form>",
+          "",
+          "Positive",
+          ": 💡 For other ideas and suggestions, please **[reach out via email](mailto:APAC-SE-Central@dynatrace.com?subject=OpenTelemetry - Ideas and Suggestions)**.",
+          "",
+          ""
+        ],
+        "description": "Create a Feedback step"
+      }
+}
