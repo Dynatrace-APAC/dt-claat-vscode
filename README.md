@@ -2,16 +2,18 @@
 
 A collection of snippets to allow faster building of labs with [CLAAT (CodeLab As A Thing)](https://github.com/googlecodelabs/tools). The usage of CLAAT supports the learning and creation of labs within [Dynatrace Learning Labs](https://dynatrace-apac.github.io/).
 
-![Overview Preview](https://github.com/ucl-casa-ce/claat-snippets-vscode/raw/master/img/overview.gif)
+![Overview Preview](https://github.com/Dynatrace-APAC/dt-claat-vscode/raw/main/img/claat.gif)
 
 # Installation
 
 1. Install [Visual Studio Code](https://code.visualstudio.com)
 2. Launch Visual Studio Code
 3. Choose **Extensions** from menu
-4. Search for `claat`
+4. Search for `dynatrace`
 5. Click **Install** to install it
 6. Click **Reload** to reload the Code
+
+![VS Code Extension](https://github.com/Dynatrace-APAC/dt-claat-vscode/raw/main/img/marketplace-extension.png)
 
 # Usage
 
